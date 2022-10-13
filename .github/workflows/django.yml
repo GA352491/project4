@@ -39,5 +39,6 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           script: |
             whoami
+            mkdir project4
 
 
